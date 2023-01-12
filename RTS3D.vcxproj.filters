@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{2e7dbbdf-6dc5-4ae3-baf3-47bb8447edaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X11 + EGL">
+      <UniqueIdentifier>{734e0a11-837a-4177-bc7c-298804a01199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSIMP">
+      <UniqueIdentifier>{66ff9adc-476a-4bbe-9102-5cc4c5196d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{caf7f1d5-4286-4487-9093-011a0c688236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Shaders">
+      <UniqueIdentifier>{a04ea840-f3ae-4385-a86e-6cb2846fdecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{dbc7a999-657d-482c-b1a2-1aafd45feb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{d921f7d1-bce8-43da-9d2d-2ac12916c447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Light Types">
+      <UniqueIdentifier>{2f70e1ac-30c9-45c1-90d3-213bcfa8f46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{17bef5ae-8437-4b63-8f8c-7f755d3e2980}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="X11Window.cpp">
+      <Filter>X11 + EGL</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OpenGLES.cpp" />
+    <ClCompile Include="Mesh.cpp">
+      <Filter>ASSIMP</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGUI\imgui_demo.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGUI\imgui_impl_opengl3.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGUI\imgui_tables.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGUI\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ASSIMP</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Light\Light Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Light\Light Types</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Light\Light Types</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Light\Light Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>ASSIMP</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="PhysicsManager.cpp" />
+    <ClCompile Include="DebugDrawer.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="Input.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="X11Window.h">
+      <Filter>X11 + EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="OpenGLES.h" />
+    <ClInclude Include="Mesh.h">
+      <Filter>ASSIMP</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGUI\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGUI\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGUI\imgui_impl_opengl3.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGUI\imgui_impl_opengl3_loader.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGUI\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGUI\imstb_rectpack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGUI\imstb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImGUI\imstb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ASSIMP</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Light\Light Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Light\Light Types</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Light\Light Types</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonValues.h" />
+    <ClInclude Include="SpotLight.h">
+      <Filter>Light\Light Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>ASSIMP</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="PhysicsManager.h" />
+    <ClInclude Include="DebugDrawer.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="PerlinNoise.hpp" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\shader.frag">
+      <Filter>Shader\Shaders</Filter>
+    </None>
+    <None Include="Shaders\shader.vert">
+      <Filter>Shader\Shaders</Filter>
+    </None>
+    <None Include="Models\Tank.mtl">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Tank.obj">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Shaders\debugShader.frag">
+      <Filter>Shader\Shaders</Filter>
+    </None>
+    <None Include="Shaders\debugShader.vert">
+      <Filter>Shader\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\DefaultTexture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\Tank_body.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\Tank_track.png">
+      <Filter>Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
